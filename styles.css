@@ -1,21 +1,25 @@
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.byline, span {
-    color: gray;
+.byline {
     text-transform: uppercase;
 }
 
 span {
-    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .headline {
-    font-size: 2em;
+    font-size: 3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+figcaption {
+    color: gray;
+    font-size: .75em;
+}
 .subhead {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,6 +27,7 @@ span {
 
 p {
     line-height: 1.4em;
+    padding-bottom: 20px;
 }
 figure {
     width: 50%;
